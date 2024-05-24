@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/membership_confirm.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- <script src="../scripts/personal_trainer.js" defer></script> -->
+    <title>Personal Trainer</title>
+  </head>
+  <body>
+    
+    <main>
+     <div class="container">
+        <div class="pop-up">
+            <div class="content">
+                <p>Your Personal Trainer Membership form has been Successfully Processed </p>
+                <p>our dedicated Trainer will be in touch within 24 hours.</p>
+                <p>Thank You.!</p>
+            </div>
+            <button id="backBtn">Back to Home</button>
+        </div>
+     </div>
+    </main>
+
+  
+    <script>
+      const backBtn = document.querySelector("#backBtn");
+      backBtn.addEventListener("click",()=>{
+        location.href="../index.html";
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service | Diet Plan</title>
+    <link rel="web icon" href="../icons/healthy-food.png">
+    <link rel="stylesheet" href="../css/diet_plans.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../scripts/diet_plans.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    
+    <header class="header" id="header">
+      <div class="logo" id="logo">
+        <h2> <a href="../index.html">Health Advisor</a>  </h2>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./About.html">About us</a></li>
+        </ul>
+      </div>
+      <div class="signup">
+        <div class="signin" id="signin">
+          <a href="./signin.html" class="btn" id="signin-btn">sign in</a>
+        </div>
+          <button title="user-profile" class="profile-btn icon" id="profile-btn">
+            <i class="fa-solid fa-user"></i>
+          </button>
+      </div>
+    </header>
+
+    <div class="user-profile-container" id="user-profile-container">
+      <button title="close" type="button" class="close-btn icon" id="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="profile-icon">
+        <i class="fa-solid fa-user"></i>
+      </div>
+      <div class="profile-details">
+        <h3  id="user-name">Name</h3>
+        <p  id="user-email">Email</p>
+      </div>
+      <button title="sign out" type="button" class="sign-out icon" id="sign-out">
+        <span>sign out</span>
+      </button>
+    </div>
+
+     <!-- Users Informations -->
+
+        <!--user - age -->
+        
+
+        <div class="users-details-container">
+          <div class="user-details ">
+            <div class="close-btn-container">
+              <span class="close-user-details" id="close-user-details">&times;</span>
+            </div>
+            <div class="content">
+              <h2>What is your Age?</h2>
+              <p>Your age determines how much you should consume</p>
+            </div>
+            <div class="input-field">
+              <input type="number" class="user-age" name="user-age" id="user-age" placeholder="eg. 20" autofocus >
+              <p class="alert-msg"></p>
+            </div>
+            <div class="btns">
+              <button class="next-btn age-next-btn " id="age-next-btn" type="submit">Next</button>
+            </div>
+          </div>
+        </div>
+        
+        <div id="alert-box" class="alert-box ">
+          <div class="alert-content">
+            <span class="close" id="close">&times;</span>
+            <p>Please enter required details</p>
+          </div>
+        </div>
+
+        <div class="welcome-container">
+          <div class="popup-content">
+            <div class="popup-close">
+              <span class="close" id="wm-popoup-close">&times;</span>
+            </div>
+            <div class="title">
+              <h1>Welcome to Health Advisor!</h1>
+            </div>
+            <div class="content">
+              <p>We're thrilled to have you join our community dedicated to promoting health and wellness. As you embark on your journey with us, here's a quick guide to help you make the most out of your experience:</p>
+              <p>Complete your profile to personalize your experience. Let us know your health goals, preferences, and any specific needs you might have.</p>
+            </div>
+           <div class="bootom-content">
+            <p>We're excited to be part of your health and wellness journey. Together, let's strive for a healthier, happier you!</p>
+            <p>Stay healthy, stay connected,</p>
+            <p>Health Advisor Team</p>
+           </div>
+          </div>
+        </div>
+
+        <div class="blur-container">
+          <div class="blur"></div>
+        </div>
+      <!-- Weight gain Diet plan - Men(Nonveg) -->
+
+    <main>
+      <section class="diet-plan-container">
+        <div class="diet-plan-inside-container">
+          <div class="diet-plan-details">
+            <p>Here's a sample nutrition diet plan tailored for weight gain and weight loss, adjusted based on BMR values and incorporating non-vegetarian options.
+               Portion sizes may vary, and customization is key to accommodate individual preferences, dietary restrictions, and medical conditions. 
+              <span> Note : Consulting with a healthcare provider or nutritionist before implementing significant dietary changes is highly recommended for personalized guidance and safety.</span>   </p>
+          </div>
+          <div class="diet-plan-foods">
+             <table id="table">
+              <h2 id="title"></h2>
+              <tr class="thead">
+                <td>Time</td>
+                <td>Food item</td>
+                <td>Measures</td>
+                <td>calories</td>
+              </tr>
+              
+             </table>
+          </div>
+          <div class="close-diet-plan">
+            <button class="dtpln-close-btn">Close</button>
+          </div>
+        </div>
+      </section>
+  
+    </main>
+
+    <footer class="footer">
+      <div class="web-info">
+        <div class="links">
+          <ul>
+            <h2>Extra Links</h2>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../html/services.html">Services</a></li>
+            <li><a href="../html/About.html">About us</a></li>
+          </ul>
+        </div>
+        <div class="links">
+          <ul>
+            <h2>Services</h2>
+            <li><a href="../html/diet_plan_index.html">Healthy Diet Plan</a></li>
+            <li><a href="../html/personal_trainer.html">Personal Trainer</a></li>
+            <li><a href="../html/simple_exercise.html">Simple Exercises</a></li>
+          </ul>
+        </div>
+        <div class="links">
+          <ul>
+            <h2>About US</h2>
+            <li><a href="../html/About.html#trainer_support">Trainer Support</a></li>
+            <li><a href="../html/About.html#community">Community</a></li>
+            <li><a href="../html/About.html#blogs">Blogs</a></li>
+
+          </ul>
+        </div>
+      </div>  
+
+      <div class="copyright-container">
+        <ul>
+          <li>2024 Health Advisor &copy; All Rights are Reserved</li>
+        </ul>
+        <div class="info">
+          <ul>
+            <li> <a href="../html/About.html#terms_of_service">Terms of Service</a> </li>
+            <li> | </li>
+            <li><a href="../html/About.html#privacy_policy">Privacy Policy</a> </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

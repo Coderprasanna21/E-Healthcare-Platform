@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Advisor | User SignUp</title>
+    <link rel="web icon" href="../icons/user-signin.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/signin.css" />
+    <link rel="icon" href="../images/person-sign.png">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="logo" id="logo">
+        <h2> <a href="../index.html">Health Advisor</a>  </h2>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./About.html">About us</a></li>
+        </ul>
+      </div>
+      <div class="signup">
+        <div class="signin" id="signin">
+          <a href="../index.html" class="btn" id="signin-btn">  Back</a>
+        </div>
+          <button title="user-profile" class="profile-btn icon" id="profile-btn">
+            <i class="fa-solid fa-user"></i>
+          </button>
+      </div>
+    </header>
+
+    <div class="user-profile-container" id="user-profile-container">
+      <button title="close" type="button" class="close-btn icon" id="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="profile-icon">
+        <i class="fa-solid fa-user"></i>
+      </div>
+      <div class="profile-details">
+        <h3  id="user-name">Name</h3>
+        <p  id="user-email">Email</p>
+      </div>
+      <button title="sign out" type="button" class="sign-out icon" id="sign-out">
+        <span>sign out</span>
+      </button>
+    </div>
+
+    <main>
+        <section class="container">
+            <div class="box">
+                <!--slide-->
+                <div class="overlay-container">
+                    <div class="overlay-sign-up">
+                        <div class="logo">
+                          <p>Health Advisor</p>
+                        </div>
+                        <p>Create new account</p>
+                        <button class="sign-up-btn btn">Sign Up</button>
+                    </div>
+                    <div class="overlay-sign-in">
+                        <div class="logo">
+                          <p>Health Advisor</p>
+                        </div>
+                        <p>Login your account</p>
+                        <button class="sign-in-btn btn">Sign In</button>
+                    </div>
+    
+                </div>
+                <!--Sign in-->
+                <div class="form-container sign-in">
+                    <form id="form1">
+                        <h1>Sign In</h1>
+                        <div class="form-control">
+                            <input type="email" placeholder="Email" autocomplete="off" class="input" id="siEmail">
+                            <small>Wrong Msg</small>
+                        </div>
+    
+                        <div class="form-control">
+                            <input type="password" placeholder="Password" class="input" id="siPassword">
+                            <small>Wrong Msg</small>
+                        </div>
+                        <button type="button" class="sibtn btn">Sign In</button>
+                    </form>
+                </div>
+                <!--Sign up-->
+                <div class="form-container sign-up">
+                    <form id="form2">
+                        <h1>Sign Up</h1>
+                        <div class="form-control">
+                            <input type="text" placeholder="Name" autocomplete="off" class="input" id="name">
+                            <small>Wrong Msg</small>
+                        </div>
+    
+                        <div class="form-control">
+                            <input type="email" placeholder="Email" autocomplete="off" class="input" id="suEmail">
+                            <small>Wrong Msg</small>
+                        </div>
+    
+                        <div class="form-control">
+                            <input type="password" placeholder="Password" class="input" id="suPassword">
+                            <small>Wrong Msg</small>
+                        </div>
+    
+                        <div class="form-control">
+                            <input type="password" placeholder="Confirm Password" class="input" id="suPassword2">
+                            <small>Wrong Msg</small>
+                        </div>
+                        <button type="button" class="subtn btn">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="alert" id="alert">
+          <button class="close-btn" id="close-btn">&#x2716;</button>
+          <p class="message" id="alert-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, cum delectus? Libero, est fugiat laboriosam iste amet animi illum dolor provident nisi reiciendis magni iure, culpa facere tempora odio eum.</p>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="web-info">
+          <div class="links">
+            <ul>
+              <h2>Extra Links</h2>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../html/services.html">Services</a></li>
+              <li><a href="../html/About.html">About us</a></li>
+            </ul>
+          </div>
+          <div class="links">
+            <ul>
+              <h2>Services</h2>
+              <li><a href="../html/diet_plan_index.html">Healthy Diet Plan</a></li>
+              <li><a href="../html/personal_trainer.html">Personal Trainer</a></li>
+              <li><a href="../html/simple_exercise.html">Simple Exercises</a></li>
+            </ul>
+          </div>
+          <div class="links">
+            <ul>
+              <h2>About US</h2>
+              <li><a href="../html/About.html#trainer_support">Trainer Support</a></li>
+              <li><a href="../html/About.html#community">Community</a></li>
+              <li><a href="../html/About.html#blogs">Blogs</a></li>
+  
+            </ul>
+          </div>
+        </div>  
+  
+        <div class="copyright-container">
+          <ul>
+            <li>2024 Health Advisor &copy; All Rights are Reserved</li>
+          </ul>
+          <div class="info">
+            <ul>
+              <li> <a href="../html/About.html#terms_of_service">Terms of Service</a> </li>
+              <li> | </li>
+              <li><a href="../html/About.html#privacy_policy">Privacy Policy</a> </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+     
+    <script src="../scripts/signin.js"></script>
+  </body>
+</html>
+
